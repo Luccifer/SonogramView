@@ -19,19 +19,19 @@ do {
 
 
 var waveView: SonogramView = SonogramView()
-waveView?.addDurationOfFileWith(url: fileUrl!)
-waveView?.convertToPoints()
+waveView.addDurationOfFileWith(url: fileUrl!)
+waveView.convertToPoints()
 // And you are done!
 
 // Customization of view
-waveView?.backgroundColor = .clear
+waveView.backgroundColor = .clear
 let view = UIView(frame: CGRect(x: 0, y: 0, width: 300, height: 200))
 view.backgroundColor = .white
-view.addSubview(waveView!)
+view.addSubview(waveView)
 
-waveView?.frame.size.width = view.frame.width
-waveView?.frame.size.height = view.frame.height
-waveView?.center = view.center
+waveView.frame.size.width = view.frame.width
+waveView.frame.size.height = view.frame.height
+waveView.center = view.center
 
 PlaygroundPage.current.liveView = view // Showing in liveView with xCode Playground
 ```
