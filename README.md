@@ -1,5 +1,7 @@
 ![](https://img.shields.io/badge/swift-3.0.1-green.svg)
 
+![](https://github.com/Luccifer/SonogramView/blob/master/Screen%20Shot%202017-09-01%20at%2023.35.47.png)
+
 # SonogramView
 Audio visualisation of song
 
