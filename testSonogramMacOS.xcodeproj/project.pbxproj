@@ -7,27 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E07091851F862C1600BA3FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07091841F862C1600BA3FEC /* AppDelegate.swift */; };
-		E07091871F862C1600BA3FEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07091861F862C1600BA3FEC /* ViewController.swift */; };
-		E070918A1F862C1600BA3FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07091881F862C1600BA3FEC /* Main.storyboard */; };
-		E070918C1F862C1600BA3FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E070918B1F862C1600BA3FEC /* Assets.xcassets */; };
-		E070918F1F862C1600BA3FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E070918D1F862C1600BA3FEC /* LaunchScreen.storyboard */; };
-		E0F3C1DC1F8B80C200CE0342 /* SonogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3C1DB1F8B80C200CE0342 /* SonogramView.swift */; };
+		E067DCE01F8B791900D24A70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E067DCDF1F8B791900D24A70 /* AppDelegate.swift */; };
+		E067DCE21F8B791900D24A70 /* MacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E067DCE11F8B791900D24A70 /* MacViewController.swift */; };
+		E067DCE41F8B791900D24A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E067DCE31F8B791900D24A70 /* Assets.xcassets */; };
+		E067DCE71F8B791900D24A70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E067DCE51F8B791900D24A70 /* Main.storyboard */; };
+		E0F3C1D81F8B7A7600CE0342 /* MacSonogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F3C1D71F8B7A7600CE0342 /* MacSonogramView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E07091811F862C1600BA3FEC /* testSonogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testSonogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E07091841F862C1600BA3FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E07091861F862C1600BA3FEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E07091891F862C1600BA3FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E070918B1F862C1600BA3FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E070918E1F862C1600BA3FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E07091901F862C1600BA3FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0F3C1DB1F8B80C200CE0342 /* SonogramView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonogramView.swift; sourceTree = "<group>"; };
+		E067DCDC1F8B791900D24A70 /* testSonogramMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testSonogramMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E067DCDF1F8B791900D24A70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E067DCE11F8B791900D24A70 /* MacViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacViewController.swift; sourceTree = "<group>"; };
+		E067DCE31F8B791900D24A70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E067DCE61F8B791900D24A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E067DCE81F8B791900D24A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E067DCE91F8B791900D24A70 /* testSonogramMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = testSonogramMacOS.entitlements; sourceTree = "<group>"; };
+		E0F3C1D71F8B7A7600CE0342 /* MacSonogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacSonogramView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E070917E1F862C1600BA3FEC /* Frameworks */ = {
+		E067DCD91F8B791900D24A70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,73 +36,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E07091781F862C1600BA3FEC = {
+		E067DCD31F8B791900D24A70 = {
 			isa = PBXGroup;
 			children = (
-				E07091831F862C1600BA3FEC /* testSonogram */,
-				E07091821F862C1600BA3FEC /* Products */,
+				E067DCDE1F8B791900D24A70 /* testSonogramMacOS */,
+				E067DCDD1F8B791900D24A70 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E07091821F862C1600BA3FEC /* Products */ = {
+		E067DCDD1F8B791900D24A70 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E07091811F862C1600BA3FEC /* testSonogram.app */,
+				E067DCDC1F8B791900D24A70 /* testSonogramMacOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E07091831F862C1600BA3FEC /* testSonogram */ = {
+		E067DCDE1F8B791900D24A70 /* testSonogramMacOS */ = {
 			isa = PBXGroup;
 			children = (
-				E07091841F862C1600BA3FEC /* AppDelegate.swift */,
-				E07091861F862C1600BA3FEC /* ViewController.swift */,
-				E0F3C1DB1F8B80C200CE0342 /* SonogramView.swift */,
-				E07091881F862C1600BA3FEC /* Main.storyboard */,
-				E070918B1F862C1600BA3FEC /* Assets.xcassets */,
-				E070918D1F862C1600BA3FEC /* LaunchScreen.storyboard */,
-				E07091901F862C1600BA3FEC /* Info.plist */,
+				E067DCDF1F8B791900D24A70 /* AppDelegate.swift */,
+				E0F3C1D71F8B7A7600CE0342 /* MacSonogramView.swift */,
+				E067DCE11F8B791900D24A70 /* MacViewController.swift */,
+				E067DCE31F8B791900D24A70 /* Assets.xcassets */,
+				E067DCE51F8B791900D24A70 /* Main.storyboard */,
+				E067DCE81F8B791900D24A70 /* Info.plist */,
+				E067DCE91F8B791900D24A70 /* testSonogramMacOS.entitlements */,
 			);
-			path = testSonogram;
+			path = testSonogramMacOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E07091801F862C1600BA3FEC /* testSonogram */ = {
+		E067DCDB1F8B791900D24A70 /* testSonogramMacOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E07091931F862C1600BA3FEC /* Build configuration list for PBXNativeTarget "testSonogram" */;
+			buildConfigurationList = E067DCEC1F8B791900D24A70 /* Build configuration list for PBXNativeTarget "testSonogramMacOS" */;
 			buildPhases = (
-				E070917D1F862C1600BA3FEC /* Sources */,
-				E070917E1F862C1600BA3FEC /* Frameworks */,
-				E070917F1F862C1600BA3FEC /* Resources */,
+				E067DCD81F8B791900D24A70 /* Sources */,
+				E067DCD91F8B791900D24A70 /* Frameworks */,
+				E067DCDA1F8B791900D24A70 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = testSonogram;
-			productName = testSonogram;
-			productReference = E07091811F862C1600BA3FEC /* testSonogram.app */;
+			name = testSonogramMacOS;
+			productName = testSonogramMacOS;
+			productReference = E067DCDC1F8B791900D24A70 /* testSonogramMacOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E07091791F862C1600BA3FEC /* Project object */ = {
+		E067DCD41F8B791900D24A70 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Roman Ustiantcev";
 				TargetAttributes = {
-					E07091801F862C1600BA3FEC = {
+					E067DCDB1F8B791900D24A70 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = E070917C1F862C1600BA3FEC /* Build configuration list for PBXProject "testSonogram" */;
+			buildConfigurationList = E067DCD71F8B791900D24A70 /* Build configuration list for PBXProject "testSonogramMacOS" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,63 +110,54 @@
 				en,
 				Base,
 			);
-			mainGroup = E07091781F862C1600BA3FEC;
-			productRefGroup = E07091821F862C1600BA3FEC /* Products */;
+			mainGroup = E067DCD31F8B791900D24A70;
+			productRefGroup = E067DCDD1F8B791900D24A70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E07091801F862C1600BA3FEC /* testSonogram */,
+				E067DCDB1F8B791900D24A70 /* testSonogramMacOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E070917F1F862C1600BA3FEC /* Resources */ = {
+		E067DCDA1F8B791900D24A70 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E070918F1F862C1600BA3FEC /* LaunchScreen.storyboard in Resources */,
-				E070918C1F862C1600BA3FEC /* Assets.xcassets in Resources */,
-				E070918A1F862C1600BA3FEC /* Main.storyboard in Resources */,
+				E067DCE41F8B791900D24A70 /* Assets.xcassets in Resources */,
+				E067DCE71F8B791900D24A70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E070917D1F862C1600BA3FEC /* Sources */ = {
+		E067DCD81F8B791900D24A70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E07091871F862C1600BA3FEC /* ViewController.swift in Sources */,
-				E07091851F862C1600BA3FEC /* AppDelegate.swift in Sources */,
-				E0F3C1DC1F8B80C200CE0342 /* SonogramView.swift in Sources */,
+				E0F3C1D81F8B7A7600CE0342 /* MacSonogramView.swift in Sources */,
+				E067DCE21F8B791900D24A70 /* MacViewController.swift in Sources */,
+				E067DCE01F8B791900D24A70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E07091881F862C1600BA3FEC /* Main.storyboard */ = {
+		E067DCE51F8B791900D24A70 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E07091891F862C1600BA3FEC /* Base */,
+				E067DCE61F8B791900D24A70 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E070918D1F862C1600BA3FEC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E070918E1F862C1600BA3FEC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E07091911F862C1600BA3FEC /* Debug */ = {
+		E067DCEA1F8B791900D24A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -196,7 +186,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -215,16 +205,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		E07091921F862C1600BA3FEC /* Release */ = {
+		E067DCEB1F8B791900D24A70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -253,7 +243,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -266,66 +256,65 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		E07091941F862C1600BA3FEC /* Debug */ = {
+		E067DCED1F8B791900D24A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = testSonogramMacOS/testSonogramMacOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NVMU6WZ9AZ;
-				INFOPLIST_FILE = testSonogram/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ru-platform.testSonogram";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = testSonogramMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ru-platform.testSonogramMacOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E07091951F862C1600BA3FEC /* Release */ = {
+		E067DCEE1F8B791900D24A70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = testSonogramMacOS/testSonogramMacOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NVMU6WZ9AZ;
-				INFOPLIST_FILE = testSonogram/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ru-platform.testSonogram";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = testSonogramMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ru-platform.testSonogramMacOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E070917C1F862C1600BA3FEC /* Build configuration list for PBXProject "testSonogram" */ = {
+		E067DCD71F8B791900D24A70 /* Build configuration list for PBXProject "testSonogramMacOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E07091911F862C1600BA3FEC /* Debug */,
-				E07091921F862C1600BA3FEC /* Release */,
+				E067DCEA1F8B791900D24A70 /* Debug */,
+				E067DCEB1F8B791900D24A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E07091931F862C1600BA3FEC /* Build configuration list for PBXNativeTarget "testSonogram" */ = {
+		E067DCEC1F8B791900D24A70 /* Build configuration list for PBXNativeTarget "testSonogramMacOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E07091941F862C1600BA3FEC /* Debug */,
-				E07091951F862C1600BA3FEC /* Release */,
+				E067DCED1F8B791900D24A70 /* Debug */,
+				E067DCEE1F8B791900D24A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E07091791F862C1600BA3FEC /* Project object */;
+	rootObject = E067DCD41F8B791900D24A70 /* Project object */;
 }
