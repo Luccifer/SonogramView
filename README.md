@@ -9,14 +9,15 @@ Audio visualisation of song
 ## Requirements
 
 - iOS 8.0+
-- Xcode 7.3
+- macOS 10.10+
+- Xcode 8.0+
 
 ## Installation:
 
 ### Manually
 
 #### First
-One can simply drag.. and drop the SonogramView.swift file to your project.
+Check SonogramView.swift or MacSonogramView.swift and copy it to your project, then take a look on example for iOS or macOS, it's pretty straightforward, and don't forget to make sure, that you have your audiofile added to project/downloaded.
 
 #### Second
 You whould init anywhere the SonogramView() as nib or fram - doesnt matter.. 
